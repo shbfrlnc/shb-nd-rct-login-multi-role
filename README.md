@@ -1,5 +1,9 @@
 # shb-nd-rct-login-multi-role - Aplikasi Login Multi Role yang dibuat dengan Node.js, React, Redux, Bootstrap, dan Axios
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
 ## Software Apakah Ini?
 
 shb-nd-rct-login-multi-role adalah aplikasi login multi role yang dibuat dengan Node.js, React, Redux, Bootstrap, dan Axios.
