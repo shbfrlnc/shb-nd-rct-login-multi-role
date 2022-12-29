@@ -35,7 +35,6 @@ export default function (state = {
                 items: action.payload
             };
         case "act-get-limited-todos":
-            console.log("AAAAAAAAAAAAAAAA")
             console.log(action.payload.length)
             console.log(action.payload)
             return {

@@ -15,7 +15,6 @@ module.exports.checkToken = (req, res, next) => {
         }
 
         const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
-        console.log("33333333333333333")
         console.log(decoded)
 
         if (!decoded) {

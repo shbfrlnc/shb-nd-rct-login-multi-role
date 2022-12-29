@@ -9,12 +9,10 @@ const helper = require("../helpers/helper");
 
 router.post("/login", async function (req, res, next) {
     const { email, password, role } = req.body;
-    console.log("111111111111111")
     console.log(role)
 
     try {
         const existingUser = await User.findOne({ email: email });
-        console.log("222222222222222")
         console.log(existingUser.role)
 
         if (!existingUser) {
